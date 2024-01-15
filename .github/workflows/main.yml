@@ -6,6 +6,6 @@ on:
 
 jobs:
   call-reusable-workflow:
-    uses: alamzia23/reusable_Workflow_repo@main  # Replace with actual repo path
+    uses: alamzia23/reusable_Workflow_repo/.github/workflows/main.yml@main  # Replace with actual repo path
     with:
       greeting: World  # Input for the reusable workflow
