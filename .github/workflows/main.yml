@@ -1,0 +1,11 @@
+name: Caller Workflow
+
+on:
+  pull_request:
+    types: [opened, closed]  # Trigger for both opened and closed pull requests
+
+jobs:
+  call-reusable-workflow:
+    uses: alamzia23/reusable_Workflow_repo@main  # Replace with actual repo path
+    with:
+      greeting: World  # Input for the reusable workflow
