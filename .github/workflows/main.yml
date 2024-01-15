@@ -6,6 +6,6 @@ on:
 
 jobs:
   call-reusable-workflow:
-    uses: alamzia23/reusable_Workflow_repo@main/.github/workflows/reusable.yml
+    uses: alamzia23/reusable_Workflow_repo/.github/workflows/reusable.yml@main
     with:
       greeting: Hello from the caller workflow!
